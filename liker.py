@@ -66,4 +66,4 @@ def make_magic_like(user_id, count):
                     if liked:
                         liked_user.append(email)
 
-    return ', '.join(*liked_user)
+    return ', '.join(liked_user)
